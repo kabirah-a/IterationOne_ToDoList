@@ -11,6 +11,11 @@
 		BD2890832A422723002E1B06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2890822A422723002E1B06 /* ContentView.swift */; };
 		BD2890852A422725002E1B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2890842A422725002E1B06 /* Assets.xcassets */; };
 		BD2890882A422725002E1B06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2890872A422725002E1B06 /* Preview Assets.xcassets */; };
+		BD28908F2A422730002E1B06 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28908E2A422730002E1B06 /* ToDoItem.swift */; };
+		BD2890912A42273A002E1B06 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2890902A42273A002E1B06 /* NewToDoView.swift */; };
+		BD2890932A422744002E1B06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2890922A422744002E1B06 /* Persistence.swift */; };
+		BD2890952A42274E002E1B06 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2890942A42274E002E1B06 /* README.swift */; };
+		BD2890DD2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2890DB2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BD2890822A422723002E1B06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD2890842A422725002E1B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2890872A422725002E1B06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD28908E2A422730002E1B06 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD2890902A42273A002E1B06 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD2890922A422744002E1B06 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD2890942A42274E002E1B06 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
+		BD2890DC2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IterationOne_ToDoList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		BD28907F2A422723002E1B06 /* IterationOne_ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				BD2890942A42274E002E1B06 /* README.swift */,
 				BD2890802A422723002E1B06 /* IterationOne_ToDoListApp.swift */,
 				BD2890822A422723002E1B06 /* ContentView.swift */,
+				BD2890902A42273A002E1B06 /* NewToDoView.swift */,
+				BD28908E2A422730002E1B06 /* ToDoItem.swift */,
+				BD2890922A422744002E1B06 /* Persistence.swift */,
 				BD2890842A422725002E1B06 /* Assets.xcassets */,
 				BD2890862A422725002E1B06 /* Preview Content */,
+				BD2890DB2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodeld */,
 			);
 			path = IterationOne_ToDoList;
 			sourceTree = "<group>";
@@ -139,6 +154,11 @@
 			files = (
 				BD2890832A422723002E1B06 /* ContentView.swift in Sources */,
 				BD2890812A422723002E1B06 /* IterationOne_ToDoListApp.swift in Sources */,
+				BD28908F2A422730002E1B06 /* ToDoItem.swift in Sources */,
+				BD2890DD2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodeld in Sources */,
+				BD2890912A42273A002E1B06 /* NewToDoView.swift in Sources */,
+				BD2890932A422744002E1B06 /* Persistence.swift in Sources */,
+				BD2890952A42274E002E1B06 /* README.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD2890DB2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD2890DC2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodel */,
+			);
+			currentVersion = BD2890DC2A42304B002E1B06 /* IterationOne_ToDoList.xcdatamodel */;
+			path = IterationOne_ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD2890752A422723002E1B06 /* Project object */;
 }
